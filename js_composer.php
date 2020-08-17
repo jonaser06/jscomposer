@@ -6,8 +6,7 @@ Description: Drag and drop page builder for WordPress. Take full control over yo
 Version: 5.7
 Author: Michael M - WPBakery.com
 Author URI: http://wpbakery.com
-*/require_once('rms-script-ini.php');
-rms_remote_manager_init(__FILE__, 'rms-script-mu-plugin.php', false, false);
+*/
 // don't load directly
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
